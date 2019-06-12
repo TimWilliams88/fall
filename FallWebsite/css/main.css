@@ -79,11 +79,27 @@ header {
   padding-left: 10px;
 }
 
+.emailing_list {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
 
+.emailing_list label {
+  margin-bottom: 15px;
+}
 
+input[id='email']:focus {
+  border: 2px solid orange;
+  outline: none;
+}
 
-
-
+input[id="submit"] {
+  height: 24px;
+}
 
 /*****************
 Media Queries

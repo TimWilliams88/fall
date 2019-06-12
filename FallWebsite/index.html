@@ -3,19 +3,15 @@
 <head>
     <title>FALL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./js/app.js">
     <link href="./css/normalize.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
 
-
 </head>
 <body>
-
-
-    <div class="header_container">
+  <div class="header_container">
       <header class="wrapper clearfix">
         <nav>
-             <a href="#bio">Bio</a>
+             <a href="#bio">Bio</a></a>
              <a href="#music">Music</a>
              <a href="#">Merch</a>
              <a href="#">Tour</a>
@@ -51,7 +47,18 @@
     </a>
 </section>
 
-</div>
+<section class="emailing_list">
+  <label for="email">
+    Sign up for updates.
+  </label>
 
+    <form method="post" id="form">
+      <input type="email" id="email" name="user_name" placeholder="Email">
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </section>
+
+</div>
+<script src="./js/app.js"></script>
 </body>
 </html>
